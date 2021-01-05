@@ -1,8 +1,8 @@
-**Repository** : https://www.github.com/nicofish/quant_fin
-**Date**       : 05 Jan 2021 
-**Object**     : Quantitative Finance - pricing of financial derivatives products
-**Python**     : v 3.7.7
-**Author**     : NicoFish
+**Repository** : https://www.github.com/nicofish/quant_fin  
+**Date**       : 05 Jan 2021   
+**Object**     : Quantitative Finance - pricing of financial derivatives products  
+**Python**     : v 3.7.7  
+**Author**     : NicoFish  
 
 #### option_pricing.py
 - option_pricing.py allows pricing of vanilla option with several models :
