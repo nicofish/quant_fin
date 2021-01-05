@@ -1,8 +1,8 @@
-# https://www.github.com/nicofish/quant_fin
-# Date : 05 Jan 2021 
-# Quantitative Finance : pricing of financial derivatives products
-# Python : v 3.7.7
-# Author : NicoFish
+> https://www.github.com/nicofish/quant_fin
+> Date : 05 Jan 2021 
+> Quantitative Finance : pricing of financial derivatives products
+> Python : v 3.7.7
+> Author : NicoFish
 
 option_pricing.py allow pricing of vanilla option with several models :
   - Black & Sholes formula  : european option, call and put, price and delta
