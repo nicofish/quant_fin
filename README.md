@@ -14,5 +14,9 @@
 ### test_option_pricing.py
 - unitary test for the option pricing module
 
+### rate_convention.py
+- rate convention module offers computation of discount factror, capitalisation factor, rate conversion
+- rate convention handled are : exponential, yield, linear and discount
+
 ### cash_flow.py
 - cash_flow.py contains modelisation of cash flows (date, currency, amount)
