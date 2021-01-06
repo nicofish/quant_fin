@@ -8,7 +8,7 @@
 - option_pricing.py allows pricing of vanilla option with several models :
   - Black & Sholes formula  : european option, call and put, price and delta
   - Monte Carlo simulation  : european option, call and put, price
-  - Binomial Tree model (+) : european option and american option, call and put, price
+  - Binomial Tree model (+) : european option and american option, call and put, price  
     (+) also know as Cox Ross and Rubinstein (CRR) model
 
 ### test_option_pricing.py
@@ -17,6 +17,9 @@
 ### rate_convention.py
 - rate convention module offers computation of discount factror, capitalisation factor, rate conversion
 - rate convention handled are : exponential, yield, linear and discount
+
+### fixed_income.py
+- bond modelisation with computation of cash flows, market value, pv01, yield, macaulay duration and modified duration
 
 ### cash_flow.py
 - cash_flow.py contains modelisation of cash flows (date, currency, amount)
