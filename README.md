@@ -10,10 +10,10 @@
     - Scope (option) : european, call & put
     - Output : price, analytical & simulated greeks (delta, gamma, vega, vanna, volga, theta, rho, rho_f)
   - Binomial Tree model (aka Cox Ross and Rubinstein (CRR) model)
-    - Scope (option) : european & american, call and put
+    - Scope (option) : european & american, call & put
     - Output : price, simulated greeks (delta, gamma, vega, vanna, volga, theta, rho, rho_f)
   - Monte Carlo simulation 
-    - Scope (option) : european, call & put, option
+    - Scope (option) : european, call & put
     - Output : price
 - Note :
   - analytical greek = computation by closed formula / simulated greek = computation by bumping the parameter(s)
