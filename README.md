@@ -1,15 +1,21 @@
 **Repository** : https://www.github.com/nicofish/quant_fin  
-**Date**       : 06 Jan 2021   
+**Date**       : 08 Jan 2021   
 **Object**     : Quantitative Finance - pricing of financial derivatives products  
 **Python**     : v 3.7.7  
 **Author**     : NicoFish  
 
 ### option_pricing.py
-- option_pricing.py allows pricing of vanilla option with several models :
-  - Black & Sholes formula  : european option, call and put, price and delta
-  - Monte Carlo simulation  : european option, call and put, price
-  - Binomial Tree model (+) : european option and american option, call and put, price  
-    (+) also know as Cox Ross and Rubinstein (CRR) model
+- option_pricing.py offers pricing of vanilla option with several models :
+  - Black & Sholes formula  :
+    - Scope : european option, call and put
+    - Output : price, analytical and simulated delta, gamma, vega, vanna, volga, theta, rho, rho_f
+  - Binomial Tree model (aka Cox Ross and Rubinstein (CRR) model)
+    - Scope : european option and american option, call and put
+    - Output : price, simulated delta, gamma, vega, vanna, volga, theta, rho, rho_f
+  - Monte Carlo simulation  :
+    - Scope : european option, call and put
+    - Output : price
+- Note : analytical means computation by closed formula and simulated means computation by bumping the parameter
 
 ### test_option_pricing.py
 - unitary test for the option pricing module
