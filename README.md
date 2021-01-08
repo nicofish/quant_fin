@@ -6,23 +6,25 @@
 
 ### option_pricing.py
 - option_pricing.py offers pricing of vanilla option with several models :
-  - Black & Sholes formula  :
+  - Black & Sholes formula
     - Scope : european option, call and put
-    - Output : price, analytical and simulated delta, gamma, vega, vanna, volga, theta, rho, rho_f
+    - Output : price, analytical and simulated greeks (delta, gamma, vega, vanna, volga, theta, rho, rho_f)
   - Binomial Tree model (aka Cox Ross and Rubinstein (CRR) model)
-    - Scope : european option and american option, call and put
-    - Output : price, simulated delta, gamma, vega, vanna, volga, theta, rho, rho_f
-  - Monte Carlo simulation  :
+    - Scope : european and american option, call and put
+    - Output : price, simulated greeks (delta, gamma, vega, vanna, volga, theta, rho, rho_f)
+  - Monte Carlo simulation 
     - Scope : european option, call and put
     - Output : price
-- Note : analytical means computation by closed formula and simulated means computation by bumping the parameter
+- Note :
+  - analytical greek = computation by closed formula / simulated greek = computation by bumping the parameter(s)
+  - greeks : delta = dP/dS, gamma = d²P/dS², vega = dP/dvol, vanna = d²P/dS/dvol, volga = d²P/dvol², theta = dP/dt, rho = dP/dr, rho_f = dP/dr_f
 
 ### test_option_pricing.py
 - unitary test for the option pricing module
 
 ### rate_convention.py
 - rate convention module offers computation of discount factor, capitalisation factor, rate conversion
-- rate convention handled are : exponential, yield, linear and discount
+- rate convention handled : exponential, yield, linear and discount
 
 ### fixed_income.py
 - bond modelisation with computation of cash flows, market value, pv01, yield, macaulay duration and modified duration
