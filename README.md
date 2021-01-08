@@ -21,7 +21,7 @@
 - unitary test for the option pricing module
 
 ### rate_convention.py
-- rate convention module offers computation of discount factror, capitalisation factor, rate conversion
+- rate convention module offers computation of discount factor, capitalisation factor, rate conversion
 - rate convention handled are : exponential, yield, linear and discount
 
 ### fixed_income.py
