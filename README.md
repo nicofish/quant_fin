@@ -7,13 +7,13 @@
 ### option_pricing.py
 - option_pricing.py offers pricing of vanilla option with several models :
   - Black & Sholes formula
-    - Scope : european option, call and put
-    - Output : price, analytical and simulated greeks (delta, gamma, vega, vanna, volga, theta, rho, rho_f)
+    - Scope (option) : european, call & put
+    - Output : price, analytical & simulated greeks (delta, gamma, vega, vanna, volga, theta, rho, rho_f)
   - Binomial Tree model (aka Cox Ross and Rubinstein (CRR) model)
-    - Scope : european and american option, call and put
+    - Scope (option) : european & american, call and put
     - Output : price, simulated greeks (delta, gamma, vega, vanna, volga, theta, rho, rho_f)
   - Monte Carlo simulation 
-    - Scope : european option, call and put
+    - Scope (option) : european, call & put, option
     - Output : price
 - Note :
   - analytical greek = computation by closed formula / simulated greek = computation by bumping the parameter(s)
